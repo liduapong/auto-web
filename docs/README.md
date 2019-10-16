@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo.png
+heroImage: /22.JPG
 actionText: 搞起
 actionLink: /zh/hhh
 features:
