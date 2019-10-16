@@ -3,12 +3,11 @@ home: true
 heroImage: /22.JPG
 actionText: 搞起
 actionLink: /zh/hhh
-features:
-- title: python
-  details: 又🔥又简单
-- title: selenium
-  details: web自动化工具，也可实现爬虫挺好挺好
-- title: 搞在一起就很棒
-  details: 😝😝😝😝😝😝😝😝😝😝😝😝😝😝😝😝
-footer: MIT Licensed | Copyright © 2018-present Evan You
+heroImageStyle: {
+  maxHeight: '200px',
+  display: block,
+  margin: '6rem auto 1.5rem',
+  borderRadius: '50%',
+  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
+}
 ---
