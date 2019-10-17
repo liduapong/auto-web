@@ -12,21 +12,20 @@ module.exports = {
         colorName2: 'yellow',
         colorName3: 'blue'
       },
-      type: 'blog',
-          nav: [
-            { text: 'Home', link: '/' },
-            { text: 'github', link: 'https://github.com/liduapong/selenium-doc' },
-          ],
-          blogConfig: {
-            category: {
-              location: 2,     // 在导航栏菜单中所占的位置，默认2
-              text: 'Category' // 默认文案 “分类”
-            },
-            tag: {
-              location: 3,     // 在导航栏菜单中所占的位置，默认3
-              text: 'Tag'      // 默认文案 “标签”
-            }
-          },
+      nav: [
+        { text: 'Home', link: '/' },
+        { text: 'github', link: 'https://github.com/liduapong/selenium-doc' },
+      ],
+      blogConfig: {
+        category: {
+          location: 2,     // 在导航栏菜单中所占的位置，默认2
+          text: 'Category' // 默认文案 “分类”
+        },
+        tag: {
+          location: 3,     // 在导航栏菜单中所占的位置，默认3
+          text: 'Tag'      // 默认文案 “标签”
+        }
+      },
       author: 'liduapong',
       huawei: true,
       sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。

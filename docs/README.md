@@ -2,7 +2,7 @@
 home: true
 heroImage: /22.JPG
 actionText: 搞起
-actionLink: /zh/hhh
+actionLink: /zh/Home.md
 heroImageStyle: {
   maxHeight: '200px',
   display: block,
